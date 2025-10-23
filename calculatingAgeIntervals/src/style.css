@@ -1,0 +1,108 @@
+/* ====== RESET ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ====== BODY ====== */
+body {
+    background: linear-gradient(135deg, #e3f2fd, #4c7fed);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* ====== HEADING ====== */
+h1 {
+    margin-bottom: 20px;
+    color: #0d47a1;
+    font-weight: 600;
+}
+
+/* ====== FORM CONTAINER ====== */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: left;
+}
+
+/* ====== FORM ELEMENTS ====== */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 15px;
+}
+
+input[type="number"]:focus {
+    border-color: #0d47a1;
+    outline: none;
+    box-shadow: 0 0 5px rgba(13, 71, 161, 0.3);
+}
+
+.hasil {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ====== BUTTON ====== */
+.btn-hitung {
+    width: 100%;
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-hitung:hover {
+    background-color: #89b9f0;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.icon-medsos {
+    gap: 7px;
+    text-align: center;
+}
+
+.icon-medsos a {
+    font-size: 16px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.icon-medsos a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+}
